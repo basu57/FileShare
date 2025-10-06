@@ -1,37 +1,49 @@
-TheFileShare
-TheFileShare is a full-stack web application that allows users to securely upload, manage, and share government documents with family members. It includes features like user authentication, OTP verification, file storage with Cloudinary, and user profile management.
+🗂️ TheFileShare
 
-#LIVE DEMO (https://webfilesharing.netlify.app/)
+TheFileShare is a full-stack web application that enables users to securely upload, manage, and share government documents with their family members.
+It features user authentication, OTP verification, Cloudinary-based file storage, and profile management for a secure and smooth experience.
+
+🌐 Live Demo
+
+🔗 View Project
+   (https://webfilesharing.netlify.app/)
 
 📁 Project Structure
+TheFileShare/
+├── client/          # Frontend (React or HTML, CSS, JS)
+├── server/          # Backend (Node.js, Express.js)
+├── .env.example     # Environment variables example
+├── README.md        # Documentation
+└── package.json
+
 🚀 Features
+
 ✅ User Registration with OTP Verification
 ✅ Secure Login System
 ✅ Upload / Update / Delete Documents
-✅ Share documents with family members
+✅ Share Documents with Family Members
 ✅ Profile Management
-✅ Cloudinary integration for file uploads
+✅ Cloudinary Integration for File Uploads
+
 🛠️ Tech Stack
-Frontend: HTML, CSS, JavaScript (npm start)
+
+Frontend: HTML, CSS, JavaScript
 Backend: Node.js, Express.js
-File Storage: Cloudinary
 Authentication: OTP-based system
-Database: (Add MongoDB or any DB you use, if applicable)
-📦 Getting Started
-1. Clone the Repository
-git clone https://github.com/ayushXdev/thefileshare.git
+Database: MongoDB (or your preferred DB)
+File Storage: Cloudinary
+
+⚙️ Getting Started
+1️⃣ Clone the Repository
+git clone (https://github.com/basu57/FileShare.git)
 cd thefileshare
 
-
-2. Start the Frontend
-
+2️⃣ Setup the Frontend
 cd client
 npm install
 npm start
 
-
-3. Start the Backend
-
+3️⃣ Setup the Backend
 cd ../server
 npm install
-node backend.js    # or server.js depending on your file name
+node backend.js   # or server.js depending on your setup
